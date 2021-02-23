@@ -39,16 +39,25 @@
             </li>
             <li class="item"><a href="#" class="header-links">Контакты</a></li>
           </ul>
-          <ul class="nav-items mailtel-header">
+          <ul class="nav-items">
             <li class="item">
-              <a href="mailto:info@devstudio.com" class="header-links"
-                >info@devstudio.com
+              <a
+                href="mailto:info@devstudio.com"
+                class="header-links link-item"
+              >
+                <svg class="svg-link" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
               </a>
             </li>
             <li class="item tel-header">
-              <a href="tel:+380961111111" class="phone-number"
-                >+38 096 111 11 11</a
-              >
+              <a href="tel:+380961111111" class="phone-number link-item">
+                <svg class="svg-link" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
             </li>
           </ul>
         </nav>
@@ -192,24 +201,57 @@
     <footer class="container-footer">
       <!-- Adress, email and tel -->
       <!--CONTAINER-->
-      <div class="container">
-        <address class="container-address">
+      <div class="container footer">
+        <div class="container-address">
           <a href="./studio.html" class="logo-footer"
             >Web<span class="footer-studio">Studio</span>
           </a>
           <br />
           <ul class="footer-text">
-            <li class="footer-address">
+            <li class="footer-item">
               <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
             </li>
-            <li class="footer-address">
+            <li class="footer-item">
               <p class="mailtel-footer">info@example.com</p>
             </li>
-            <li class="footer-address">
+            <li class="footer-item">
               <p class="mailtel-footer">+38 099 111 11 11</p>
             </li>
           </ul>
-        </address>
+        </div>
+        <div class="container-networks">
+          <b class="join">Присоединяйтесь</b>
+          <ul class="footer-list">
+            <li class="footer-network">
+              <a href="instagram" class="footer-links">
+                <svg class="footer-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-network">
+              <a href="twitter" class="footer-links">
+                <svg class="footer-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-network">
+              <a href="facebook" class="footer-links">
+                <svg class="footer-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-network">
+              <a href="linkedin" class="footer-links">
+                <svg class="footer-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <!--CONTAINER-->
     </footer>
