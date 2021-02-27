@@ -688,6 +688,7 @@ p {
 .card {
   text-decoration: none;
   color: currentColor;
+  background-color: var(--white-text);
 }
 
 .card-thumb:hover {
